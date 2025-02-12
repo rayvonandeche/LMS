@@ -1,5 +1,4 @@
-#ifndef BOOK_H
-#define BOOK_H
+#pragma once
 
 #include <iostream>
 #include <string>
@@ -38,5 +37,3 @@ public:
                   << "Status: " << status << "\n";
     }
 };
-
-#endif // BOOK_H

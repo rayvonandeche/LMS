@@ -1,11 +1,8 @@
-// FileHandler.h
-#ifndef FILEHANDLER_H
-#define FILEHANDLER_H
-
+#pragma once
 #include <vector>
 #include <string>
-#include "Book.h"
-#include "Person.h"
+#include "../Book/book.h"
+#include "../Person/person.h"
 
 // Loads books from a CSV file into the provided vector.
 void loadBooks(std::vector<Book>& books, const std::string &filename);
@@ -21,5 +18,3 @@ void saveMembers(const std::vector<Member>& members, const std::string &filename
 
 // Logs a transaction (borrow/return) to a CSV file.
 void logTransaction(const std::string &memberId, const std::string &isbn, const std::string &action);
-
-#endif // FILEHANDLER_H

@@ -1,12 +1,9 @@
-// Person.h
-#ifndef PERSON_H
-#define PERSON_H
-
+#pragma once
 #include <iostream>
 #include <string>
 #include <vector>
 #include <algorithm>
-#include "BOOK/book.h"  // For using the Book class in Member methods
+#include "../Book/book.h"  
 
 // Base class for persons.
 class Person {
@@ -86,4 +83,3 @@ public:
     }
 };
 
-#endif // PERSON_H

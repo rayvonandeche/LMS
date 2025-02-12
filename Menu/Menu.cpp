@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
-#include "Menu.h"
-#include "FileHandler.h"
+#include "menu.h"
+#include "../FileHandler/filehandler.h"
 
 void adminMenu(std::vector<Book>& books, std::vector<Member>& members) {
     int choice;
